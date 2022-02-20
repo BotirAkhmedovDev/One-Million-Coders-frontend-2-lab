@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixel art</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>UzPixArt Maker</h1>
+
+    <h2>Panjara o'lchamini tanlang:</h2>
+    <form id="sizePicker">
+        Panjara bo'yi:
+        <input type="number" id="inputHeight" name="height" min="1" value="1"> Panjara eni:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="submit" onclick="return makeGrid()">
+    </form>
+
+    <h2>Ranggini tanlang</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Canvas Html5</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="designs.js"></script>
+</body>
+
+</html>
